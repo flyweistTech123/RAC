@@ -1,0 +1,223 @@
+.login {
+  width: 100%;
+  display: flex;
+}
+
+/* Left side */
+
+.login1 {
+  width: 664px;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #094eb2 0%, #126870 100%);
+}
+
+.login9 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.login9 img {
+  width: 296.98px;
+  height: 296.98px;
+  position: relative;
+}
+
+.login9 h2 {
+  position: absolute;
+  top: 60px;
+  right: 350px;
+  font-weight: 700;
+  font-size: 37.06px;
+  color: #ffffff;
+}
+
+.login10 {
+  margin: 0;
+  height: 230px;
+}
+
+.login10 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 37.06px;
+  color: #ffffff;
+  line-height: 4px;
+  text-align: center;
+}
+
+.login10 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 24px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.login11 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.login12 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 18px;
+}
+
+.login12 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 18px;
+}
+
+/* Right side */
+
+.login2 {
+  width: 852px;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.login7 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #06316a;
+  line-height: 0px;
+}
+
+.login7 h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #000000;
+  line-height: normal;
+  line-height: 0px;
+}
+
+.login3 button {
+  width: 385px;
+  height: 51px;
+  border: none;
+  outline: none;
+  border-radius: 5.29px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  background-image: linear-gradient(to bottom, #094eb2 0%, #126870 100%);
+  transition: transform 0.3s ease;
+}
+
+.login3 button:hover {
+  transform: scale(1.1);
+}
+
+.login4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.login4 input {
+  width: 575px;
+  border: none;
+  border-bottom: 1px solid #5d5d5d;
+  height: 47px;
+  margin-top: 20px;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5d5d5d;
+  line-height: 40px;
+}
+
+.login4 input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #5d5d5d;
+  line-height: 40px;
+}
+
+.login5 {
+  margin-top: 50px;
+}
+
+.login5 button {
+  width: 240px;
+  height: 56px;
+  border: none;
+  outline: none;
+  border-radius: 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #063a85;
+  transition: transform 0.3s ease;
+}
+
+.login5 button:hover {
+  transform: scale(1.1);
+}
+
+.login6 {
+  margin-top: 20px;
+}
+
+.login6 span:nth-child(1) {
+  font-weight: 400;
+  font-size: 16px;
+  color: #a0a0a0;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.login6 span:nth-child(2) {
+  font-weight: 400;
+  font-size: 16px;
+  color: #063a85;
+  line-height: 40px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.login8 span {
+  font-weight: 400;
+  font-size: 16px;
+  color: #a0a0a0;
+  line-height: 40px;
+}
